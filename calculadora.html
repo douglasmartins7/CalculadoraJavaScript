@@ -13,8 +13,9 @@
 		function calcular() {
 			var resultado = 0;
 			resultado = document.getElementById('visor').value;
-			
-			alert(resultado);
+			document.getElementById('visor').value = '';
+			document.getElementById('visor').value = eval(resultado);
+			//alert(resultado);
 		}
 		
 	  </script>
